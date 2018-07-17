@@ -36,6 +36,10 @@ public class Answer extends AuditModel {
         this.text = text;
     }
 
+    public void setQuestion(Question question) {
+        this.question = question;
+    }
+
     public Question getQuestion() {
         return question;
     }
